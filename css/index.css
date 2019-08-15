@@ -1,0 +1,42 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../assets/img/calculator.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#main{
+    background: white;
+    border-radius: 25px;
+    margin: 0 10em;
+    margin-top: 5em;
+    max-height: 66%;
+    overflow-y: auto;
+    padding: 3em;
+}
+
+#main p{
+    color: #333333;
+    font-size: 14pt;
+    font-family: Helvetica, Arial;
+}
+
+#main img{
+    margin-top: 1em;
+    width: 100%;
+}
+
+#main a{
+    color: #003c8f;
+    font-family: Helvetica, Arial;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+#main a:hover{
+    color: #1565c0;
+}
