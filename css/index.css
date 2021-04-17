@@ -1,4 +1,4 @@
-html, body{
+html, body, .container{
     height: 100%;
     margin: 0;
 }
@@ -6,16 +6,12 @@ html, body{
 body{
     background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../assets/img/calculator.jpg) center center no-repeat;
     background-size: cover;
-    overflow: hidden;
 }
 
 #main{
     background: white;
     border-radius: 25px;
-    margin: 0 10em;
-    margin-top: 5em;
-    max-height: 66%;
-    overflow-y: auto;
+    margin: 5em 10em;
     padding: 3em;
 }
 
@@ -39,4 +35,8 @@ body{
 
 #main a:hover{
     color: #1565c0;
+}
+
+.container {
+    overflow-y: auto;
 }
